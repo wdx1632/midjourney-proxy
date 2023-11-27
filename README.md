@@ -13,7 +13,7 @@
 - [x] 支持中文prompt翻译，需配置百度翻译或gpt
 - [x] prompt 敏感词预检测，支持覆盖调整
 - [x] user-token 连接 wss，可以获取错误信息和完整功能
-- [x] 支持多账号配置，每个账号可设置对应的任务队列
+- [x] 支持多账号配置，每个账号可设置对应的任务队列   
 
 **🚀 更多功能请查看 [midjourney-proxy-plus](https://github.com/litter-coder/midjourney-proxy-plus)**
 > - [x] 支持开源版的所有功能
