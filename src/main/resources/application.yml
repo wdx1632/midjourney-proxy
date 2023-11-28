@@ -12,8 +12,8 @@ mj:
       # channel-id: 1177548798084534292
       # user-token: MTE3NzU0NTExNTM0NzE5Nzk3Mg.GVPnAL.vq-NuPSl3C-gKZQvGWD0aMrQd4v3uj-cGNcNxo
   #     user-agent: xxxx
-  discord:
-    guild-id: 1177550062629421066
-    channel-id: 1177548798084534292
-    user-token: MTE3NzU0NTExNTM0NzE5Nzk3Mg.GVPnAL.vq-NuPSl3C-gKZQvGWD0aMrQd4v3uj-cGNcNxo
+  # discord:
+  #   guild-id: 1177550062629421066
+  #   channel-id: 1177548798084534292
+  #   user-token: MTE3NzU0NTExNTM0NzE5Nzk3Mg.GVPnAL.vq-NuPSl3C-gKZQvGWD0aMrQd4v3uj-cGNcNxo
       
