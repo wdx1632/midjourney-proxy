@@ -108,6 +108,10 @@ public class ProxyProperties {
 		 * 百度翻译的密钥.
 		 */
 		private String appSecret;
+		/**
+		 * 百度翻译的appkey.
+		 */
+		private String appKey;
 	}
 
 	@Data
