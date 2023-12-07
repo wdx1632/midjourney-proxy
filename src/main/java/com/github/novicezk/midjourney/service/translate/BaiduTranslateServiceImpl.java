@@ -59,31 +59,23 @@ public class BaiduTranslateServiceImpl implements TranslateService {
 	private final String appid;
 	private final String appKey;
 	private final String appSecret;
-
-	class Employee {
-		static String token;
-	}
 		 
 	public BaiduTranslateServiceImpl(ProxyProperties.BaiduTranslateConfig translateConfig) {
 		this.appid = translateConfig.getAppid();
 		this.appKey = translateConfig.getAppKey();
 		this.appSecret = translateConfig.getAppSecret();
 
-		try {
-			this.getAccessToken();
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
-		log.info(GlobalVals.NAME);
-		
+//		try {
+//        	String AccessToken = this.getAccessToken();
+//			System.out.println(AccessToken);
+//		} catch (IOException e) {
+//			throw new RuntimeException(e);
+//		}
+
 		if (!CharSequenceUtil.isAllNotBlank(this.appid, this.appSecret)) {
 			throw new BeanDefinitionValidationException("mj.baidu-translate.appid或mj.baidu-translate.app-secret未配置");
 		}
 	}
-		class GlobalVals {
-		  static final int ID = 1212;
-		  static final String NAME = "Samre";
-		}
 
 	    /**
      * 从用户的AK，SK生成鉴权签名（Access Token）
@@ -103,7 +95,6 @@ public class BaiduTranslateServiceImpl implements TranslateService {
                 .build();
         Response response = HTTP_CLIENT.newCall(request).execute();
         return new JSONObject(response.body().string()).getString("access_token");
-//		return "";
     }
 
 	@Override
