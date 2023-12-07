@@ -2,7 +2,7 @@
 
 代理 MidJourney 的discord频道，实现api形式调用AI绘图
 
-[![GitHub release](https://img.shields.io/static/v1?label=release&message=v2.5.4&color=blue)](https://www.github.com/novicezk/midjourney-proxy)
+[![GitHub release](https://img.shields.io/static/v1?label=release&message=v2.5.5&color=blue)](https://www.github.com/novicezk/midjourney-proxy)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## 主要功能
@@ -13,7 +13,7 @@
 - [x] 支持中文prompt翻译，需配置百度翻译或gpt
 - [x] prompt 敏感词预检测，支持覆盖调整
 - [x] user-token 连接 wss，可以获取错误信息和完整功能
-- [x] 支持多账号配置，每个账号可设置对应的任务队列   
+- [x] 支持多账号配置，每个账号可设置对应的任务队列
 
 **🚀 更多功能请查看 [midjourney-proxy-plus](https://github.com/litter-coder/midjourney-proxy-plus)**
 > - [x] 支持开源版的所有功能
@@ -26,6 +26,7 @@
 > - [x] 账号池持久化，动态维护
 > - [x] 支持获取账号/info、/settings信息
 > - [x] 账号settings设置
+> - [x] 支持niji bot机器人
 > - [x] 内嵌管理后台页面
 
 ## 使用前提

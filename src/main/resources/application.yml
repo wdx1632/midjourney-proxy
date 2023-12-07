@@ -3,17 +3,3 @@ mj:
     type: in_memory
     timeout: 30d
   translate-way: null
-  # accounts:
-    # - guild-id: 1168799994879422524
-      # channel-id: 1168799027245092905
-      # user-token: MTE0NzE5NDk1MjM4MDU5NjI5NA.Gq5-Au.WzhwUoB8MbJ7W0AtPI2PMiX1JIJeK37GOKK4Aw
-  #     user-agent: 
-    # - guild-id: 1177550062629421066
-      # channel-id: 1177548798084534292
-      # user-token: MTE3NzU0NTExNTM0NzE5Nzk3Mg.GVPnAL.vq-NuPSl3C-gKZQvGWD0aMrQd4v3uj-cGNcNxo
-  #     user-agent: xxxx
-  # discord:
-  #   guild-id: 1177550062629421066
-  #   channel-id: 1177548798084534292
-  #   user-token: MTE3NzU0NTExNTM0NzE5Nzk3Mg.GVPnAL.vq-NuPSl3C-gKZQvGWD0aMrQd4v3uj-cGNcNxo
-      
